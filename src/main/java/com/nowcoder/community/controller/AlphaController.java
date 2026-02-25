@@ -1,9 +1,8 @@
 package com.nowcoder.community.controller;
 
 import com.nowcoder.community.service.AlphaService;
-import jakarta.servlet.http.HttpServlet;
-import jakarta.servlet.http.HttpServletRequest;
-import jakarta.servlet.http.HttpServletResponse;
+import com.nowcoder.community.uti.CommunityUtil;
+import jakarta.servlet.http.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -141,6 +140,53 @@ public class AlphaController {
         list.add(emp);
 
         return list; // {"name":"Nick","salary":8000,"age":23}
+    }
+
+
+    // Cookies
+    @RequestMapping(path = "cookie/set", method = RequestMethod.GET)
+    @ResponseBody
+    public String setCookie(HttpServletResponse response) {
+        // create a cookie
+        Cookie cookie = new Cookie("code", CommunityUtil.generateUUID());
+        // set the valid cookie range
+        cookie.setPath("community/alpha");
+        // cookie valid time
+        cookie.setMaxAge(60 * 10);
+        // send cookie
+        response.addCookie(cookie);
+        return "set cookie";
+    }
+    @RequestMapping(path = "cookie/get", method = RequestMethod.GET)
+    @ResponseBody
+    public String getCookie(@CookieValue("code") String code){
+        System.out.println(code);
+        return "get cookie";
+    }
+
+    // Session
+    @RequestMapping(path = "session/set", method = RequestMethod.GET)
+    @ResponseBody
+    public String setSession(HttpSession session) {
+        session.setAttribute("id", "1");
+        session.setAttribute("name", "Test");
+        return "set session";
+    }
+    @RequestMapping(path = "session/get", method = RequestMethod.GET)
+    @ResponseBody
+    public String getSession(HttpSession session) {
+        System.out.println(session.getAttribute("id"));
+        System.out.println(session.getAttribute("name"));
+        return "get session";
+    }
+
+    // ajax
+    @RequestMapping(path = "/ajex", method = RequestMethod.POST)
+    @ResponseBody
+    public String testAjax(String name, int age) {
+        System.out.println(name);
+        System.out.println(age);
+        return CommunityUtil.getJsonString(0, "Success!");
     }
 }
 

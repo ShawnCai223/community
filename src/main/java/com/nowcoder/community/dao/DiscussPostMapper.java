@@ -12,6 +12,8 @@ public interface DiscussPostMapper {
 
     int selectDiscussPostRows(@Param("userId") int userId); // @Param: nickname: only one parameter and use in <>
 
+    int insertDiscussPost(DiscussPost discussPost);
 
+    DiscussPost selectDiscussPostById(int id);
 
 }
