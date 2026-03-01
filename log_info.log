@@ -1,0 +1,18 @@
+2026-02-25 16:56:30,805 INFO [main] c.n.c.TransactionTest [StartupInfoLogger.java:54] Starting TransactionTest using Java 22.0.2 with PID 63560 (started by shawncai in /Users/shawncai/work/workspace/community)
+2026-02-25 16:56:30,807 INFO [main] c.n.c.TransactionTest [SpringApplication.java:652] No active profile set, falling back to 1 default profile: "default"
+2026-02-25 16:56:31,323 INFO [main] o.s.b.w.a.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:60] Adding welcome page template: index
+2026-02-25 16:56:31,443 INFO [main] c.n.c.TransactionTest [StartupInfoLogger.java:60] Started TransactionTest in 0.85 seconds (process running for 1.367)
+2026-02-25 16:56:31,861 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:109] HikariPool-1 - Starting...
+2026-02-25 16:56:31,982 INFO [main] c.z.h.p.HikariPool [HikariPool.java:580] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4deca78
+2026-02-25 16:56:31,983 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:122] HikariPool-1 - Start completed.
+2026-02-25 16:56:32,077 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:349] HikariPool-1 - Shutdown initiated...
+2026-02-25 16:56:32,083 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:351] HikariPool-1 - Shutdown completed.
+2026-02-25 17:03:27,942 INFO [main] c.n.c.TransactionTest [StartupInfoLogger.java:54] Starting TransactionTest using Java 22.0.2 with PID 63653 (started by shawncai in /Users/shawncai/work/workspace/community)
+2026-02-25 17:03:27,943 INFO [main] c.n.c.TransactionTest [SpringApplication.java:652] No active profile set, falling back to 1 default profile: "default"
+2026-02-25 17:03:28,460 INFO [main] o.s.b.w.a.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:60] Adding welcome page template: index
+2026-02-25 17:03:28,565 INFO [main] c.n.c.TransactionTest [StartupInfoLogger.java:60] Started TransactionTest in 0.801 seconds (process running for 1.273)
+2026-02-25 17:03:28,891 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:109] HikariPool-1 - Starting...
+2026-02-25 17:03:28,960 INFO [main] c.z.h.p.HikariPool [HikariPool.java:580] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7857cb1d
+2026-02-25 17:03:28,961 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:122] HikariPool-1 - Start completed.
+2026-02-25 17:03:29,010 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:349] HikariPool-1 - Shutdown initiated...
+2026-02-25 17:03:29,014 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:351] HikariPool-1 - Shutdown completed.

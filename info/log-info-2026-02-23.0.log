@@ -1,0 +1,41 @@
+2026-02-23 17:48:52,212 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:54] Starting CommunityApplication using Java 22.0.2 with PID 12772 (/Users/shawncai/work/workspace/community/target/classes started by shawncai in /Users/shawncai/work/workspace/community)
+2026-02-23 17:48:52,214 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:652] No active profile set, falling back to 1 default profile: "default"
+2026-02-23 17:48:52,230 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [LogLevel.java:69] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-02-23 17:48:52,230 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [LogLevel.java:69] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-02-23 17:48:52,630 INFO [restartedMain] o.s.b.t.TomcatWebServer [TomcatWebServer.java:114] Tomcat initialized with port 8080 (http)
+2026-02-23 17:48:52,635 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:168] Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-23 17:48:52,635 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:168] Starting service [Tomcat]
+2026-02-23 17:48:52,635 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:168] Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-23 17:48:52,647 INFO [restartedMain] o.s.b.w.c.s.WebApplicationContextInitializer [WebApplicationContextInitializer.java:77] Root WebApplicationContext: initialization completed in 417 ms
+2026-02-23 17:48:52,807 INFO [restartedMain] o.s.b.w.a.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:60] Adding welcome page template: index
+2026-02-23 17:48:52,936 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:168] Starting ProtocolHandler ["http-nio-8080"]
+2026-02-23 17:48:52,943 INFO [restartedMain] o.s.b.t.TomcatWebServer [TomcatWebServer.java:240] Tomcat started on port 8080 (http) with context path '/community'
+2026-02-23 17:48:52,946 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:60] Started CommunityApplication in 0.974 seconds (process running for 1.362)
+2026-02-23 17:49:21,002 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:168] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-23 17:49:21,003 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:523] Initializing Servlet 'dispatcherServlet'
+2026-02-23 17:49:21,004 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:545] Completed initialization in 1 ms
+2026-02-23 17:49:21,042 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:109] HikariPool-1 - Starting...
+2026-02-23 17:49:21,125 INFO [http-nio-8080-exec-1] c.z.h.p.HikariPool [HikariPool.java:580] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2774665a
+2026-02-23 17:49:21,126 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:122] HikariPool-1 - Start completed.
+2026-02-23 17:56:10,912 INFO [SpringApplicationShutdownHook] o.s.b.t.GracefulShutdown [GracefulShutdown.java:54] Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-23 17:56:10,916 INFO [tomcat-shutdown] o.s.b.t.GracefulShutdown [GracefulShutdown.java:76] Graceful shutdown complete
+2026-02-23 17:56:10,924 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:349] HikariPool-1 - Shutdown initiated...
+2026-02-23 17:56:10,928 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:351] HikariPool-1 - Shutdown completed.
+2026-02-23 17:56:11,947 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:54] Starting CommunityApplication using Java 22.0.2 with PID 13256 (/Users/shawncai/work/workspace/community/target/classes started by shawncai in /Users/shawncai/work/workspace/community)
+2026-02-23 17:56:11,949 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:652] No active profile set, falling back to 1 default profile: "default"
+2026-02-23 17:56:12,002 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [LogLevel.java:69] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-02-23 17:56:12,002 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [LogLevel.java:69] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-02-23 17:56:12,439 INFO [restartedMain] o.s.b.t.TomcatWebServer [TomcatWebServer.java:114] Tomcat initialized with port 8080 (http)
+2026-02-23 17:56:12,443 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:168] Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-23 17:56:12,444 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:168] Starting service [Tomcat]
+2026-02-23 17:56:12,444 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:168] Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-23 17:56:12,455 INFO [restartedMain] o.s.b.w.c.s.WebApplicationContextInitializer [WebApplicationContextInitializer.java:77] Root WebApplicationContext: initialization completed in 452 ms
+2026-02-23 17:56:12,735 INFO [restartedMain] o.s.b.w.a.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:60] Adding welcome page template: index
+2026-02-23 17:56:12,837 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:168] Starting ProtocolHandler ["http-nio-8080"]
+2026-02-23 17:56:12,843 INFO [restartedMain] o.s.b.t.TomcatWebServer [TomcatWebServer.java:240] Tomcat started on port 8080 (http) with context path '/community'
+2026-02-23 17:56:12,845 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:60] Started CommunityApplication in 1.102 seconds (process running for 1.398)
+2026-02-23 17:56:13,997 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:168] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-23 17:56:13,997 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:523] Initializing Servlet 'dispatcherServlet'
+2026-02-23 17:56:13,998 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:545] Completed initialization in 1 ms
+2026-02-23 17:56:43,180 INFO [SpringApplicationShutdownHook] o.s.b.t.GracefulShutdown [GracefulShutdown.java:54] Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-23 17:56:43,182 INFO [tomcat-shutdown] o.s.b.t.GracefulShutdown [GracefulShutdown.java:76] Graceful shutdown complete

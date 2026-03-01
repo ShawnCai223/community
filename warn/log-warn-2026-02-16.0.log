@@ -1,0 +1,1 @@
+2026-02-17 00:29:28,403 WARN [restartedMain] o.s.b.w.s.s.c.AnnotationConfigServletWebServerApplicationContext [AbstractApplicationContext.java:628] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
