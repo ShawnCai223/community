@@ -43,6 +43,7 @@ log_*.log
 .DS_Store
 .gitattributes
 .env
+*.env
 
 # Optional: local env
 *.local
