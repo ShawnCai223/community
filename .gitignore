@@ -31,3 +31,18 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Logs
+*.log
+log_*.log
+/error/
+/info/
+/warn/
+
+# IDE / OS
+.DS_Store
+
+# Optional: local env
+*.local
+
+
