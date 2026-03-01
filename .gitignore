@@ -45,4 +45,4 @@ log_*.log
 # Optional: local env
 *.local
 
-
+/data/upload/
