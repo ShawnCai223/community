@@ -45,4 +45,5 @@ log_*.log
 # Optional: local env
 *.local
 
-/data/upload/
+/data/upload/*
+!/data/upload/.gitkeep
