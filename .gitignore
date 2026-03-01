@@ -41,6 +41,7 @@ log_*.log
 
 # IDE / OS
 .DS_Store
+.gitattributes
 
 # Optional: local env
 *.local
