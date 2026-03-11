@@ -49,3 +49,4 @@ log_*.log
 *.local
 /data/upload/*
 !/data/upload/.gitkeep
+/data/community-init-sql-1.5/
